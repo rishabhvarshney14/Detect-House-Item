@@ -4,13 +4,18 @@ Predict the common household items that are present in the image.
 Inspired by [Amenity Detection and Beyond — New Frontiers of Computer Vision at Airbnb](https://medium.com/airbnb-engineering/amenity-detection-and-beyond-new-frontiers-of-computer-vision-at-airbnb-144a4441b72e) and [Daniel Bourke](https://www.mrdbourke.com/42days)
 
 Dataset Used : [Open Images](https://opensource.google/projects/open-images-dataset)
+
 Model Used : [Retinanet(keras-retinanet backend - resnet50)](https://github.com/fizyr/keras-retinanet)
+
 Live App : [HouseItemDetect](https://houseitemdetect.herokuapp.com/)
+
 Note: This app is deployed on heroku's free dyno which only provide 500 MB of RAM. The total size of the app is around 430 MB (+ 140 MB trained model) 
 which make the site to crash.
+
 Web Framework used : [streamlit](https://www.streamlit.io/)
 
 Sample Image:
+
 ![sample image](https://github.com/rishabhvarshney14/Detect-House-Item/blob/master/sample.png)
 
 ## About Files
