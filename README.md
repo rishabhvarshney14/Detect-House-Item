@@ -10,7 +10,7 @@ Model Used : [Retinanet(keras-retinanet backend - resnet50)](https://github.com/
 Live App : [DetectHouseItem](https://detecthouseitem.herokuapp.com/)
 
 Note: This app is deployed on heroku's free dyno which only provide 500 MB of RAM. The total size of the app is around 430 MB (+ 140 MB trained model) 
-which make the site to crash.
+which make the site to crash sometime.
 
 Web Framework used : [streamlit](https://www.streamlit.io/)
 
