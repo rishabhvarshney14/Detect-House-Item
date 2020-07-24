@@ -1,4 +1,4 @@
 import urllib.request
 
-url = 'https://detectimage.oss-ap-south-1.aliyuncs.com/model.h5'
+url = 'https://<path_to_model>/model.h5'
 urllib.request.urlretrieve(url, 'model.h5')
