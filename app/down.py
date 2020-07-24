@@ -1,5 +1,4 @@
-from google_drive_downloader import GoogleDriveDownloader as gdd
+import urllib.request
 
-gdd.download_file_from_google_drive(file_id='1YHtjrRJXJsGRCfgdkQOdQHIl4rwgBlUx',
-                                    dest_path='./model/model.h5',
-                                    unzip=False)
+url = 'https://detectimage.oss-ap-south-1.aliyuncs.com/model.h5'
+urllib.request.urlretrieve(url, 'model.h5')
