@@ -1,6 +1,6 @@
 # Detect House Item
 
-Predict the common household items that are present in the image.
+Predicts common household items that are present in the image.
 Inspired by [Amenity Detection and Beyond — New Frontiers of Computer Vision at Airbnb](https://medium.com/airbnb-engineering/amenity-detection-and-beyond-new-frontiers-of-computer-vision-at-airbnb-144a4441b72e) and [Daniel Bourke](https://www.mrdbourke.com/42days)
 
 Dataset Used : [Open Images](https://opensource.google/projects/open-images-dataset)
