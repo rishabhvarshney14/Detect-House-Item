@@ -1,3 +1,5 @@
+[![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/rishabhvarshney14/Detect-House-Item/?ref=repository-badge)
+
 # Detect House Item
 
 Predicts common household items that are present in the image.
